@@ -1,4 +1,4 @@
-HelicES (Helical Electronic Structure) is a MATLAB package for electronic structure calculations of structures with helical and cyclic symmetries. 
+HelicES (Helical Electronic Structure) is a MATLAB package for electronic structure calculations of nanomaterials with helical and cyclic symmetries. 
 In essence, it implements a spectral method for solving the Schrödinger equation, as it applies to quasi-one-dimensional materials and structures.
 The package can be used to compute the electronic states of important technological materials such as nanotubes (of arbitrary chirality), nanowires, 
 nanoribbons, chiral nanoassemblies, nanosprings and nanocoils, in an accurate, efficient and systematic manner. In particular, chiral 1D 
