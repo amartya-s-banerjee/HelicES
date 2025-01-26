@@ -1,0 +1,71 @@
+Domain boundaries (R, Tau, Alpha, N) % System boundary and geometry
+25.00 8.051408051408050
+0.000 1.000000000000000
+
+Dimensions for b_n_k_table (Ecut), and I_nkkprime_table (n,k) 
+100 100
+
+Flag for energy cutoff (=1 to engaged energy cutoff)%(may be ignored)
+1
+
+Energy cutoff (in Hartrees)
+16
+
+No. of spectral basis functions(M_max, N_max, K_max)%(may be ignored)
+5 5 5
+
+Factors to multiply M_max, N_max and K_max with for real space grid 
+2 2 4
+
+Choice of Eigensolver: 0 = Eigs, 1 = LOBPCG with TPA Prec.
+0
+
+Number of eigenvalues to be calculated, convergence tolerance
+70 1e-5
+
+Number of k points % in the helical direction
+21
+
+Flag for time reversal symmetry
+1
+
+Number of atom types
+2
+
+Atom type % symbol, its charge and no. of atoms
+C_Kurokawa
+4
+14
+
+Cut off radius (in Bohr) for local pseudopotential
+21
+
+Helical coordinates of atoms (r, theta_1, theta_2)
+6.97272390875394	0.166666666666667	0.500000000000000
+4.64848260583596	0.000000000000000	0.500000000000000
+2.32424130291798	0.166666666666667	0.500000000000000
+0.00000000000000	0.000000000000000	0.000000000000000
+2.32424130291798	0.166666666666667	0.000000000000000
+4.64848260583596	0.000000000000000	0.000000000000000
+6.97272390875394	0.166666666666667	0.000000000000000
+6.97272390875394	0.500000000000000	0.500000000000000
+4.64848260583596	0.666666666666667	0.500000000000000
+2.32424130291798	0.500000000000000	0.500000000000000
+0.00000000000000	0.666666666666667	0.000000000000000
+2.32424130291798	0.500000000000000	0.000000000000000
+4.64848260583596	0.666666666666667	0.000000000000000
+6.97272390875394	0.500000000000000	0.000000000000000
+
+Atom type % symbol, its charge and no. of atoms
+H_C_Kurokawa
+1
+4
+
+Cut off radius (in Bohr) for local pseudopotential
+30
+
+Helical coordinates of atoms (r, theta_1, theta_2)
+8.75682462719098	0.0387323943661972	0.000000000000000
+8.75682462719098	0.0387323943661972	0.500000000000000
+8.75682462719098	0.627934272300469	0.000000000000000
+8.75682462719098	0.627934272300469	0.500000000000000

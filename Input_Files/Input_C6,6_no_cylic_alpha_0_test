@@ -1,0 +1,67 @@
+Domain boundaries (R, Tau, Alpha, N) % System boundary and geometry
+18.00 4.605253704415040
+0.000 1.000000000000000
+
+Dimensions for b_n_k_table (Ecut), and I_nkkprime_table (n,k) 
+100 100
+
+Flag for energy cutoff (=1 to engaged energy cutoff)%(may be ignored)
+1
+
+Energy cutoff (in Hartrees)
+7.5
+
+No. of spectral basis functions(M_max, N_max, K_max)%(may be ignored)
+5 5 5
+
+Factors to multiply M_max, N_max and K_max with for real space grid 
+2 2 4
+
+Choice of Eigensolver: 0 = Eigs, 1 = LOBPCG with TPA Prec.
+0
+
+Number of eigenvalues to be calculated, convergence tolerance
+16 1e-5
+
+Number of k points % in the helical direction
+7
+
+Flag for time reversal symmetry
+1
+
+Number of atom types
+1
+
+Atom type % symbol, its charge and no. of atoms
+C_Mayer
+1
+24
+
+Cut off radius (in Bohr) for local pseudopotential
+16
+
+Helical coordinates of atoms (r, theta_1, theta_2)
+7.617028313976782   0.500000000000000                   0
+7.617028313976782   0.500000000000000   0.055555555555556
+7.617028313976782                   0   0.083333333333333
+7.617028313976782                   0   0.138888888888889
+7.617028313976782   0.500000000000000   0.166666666666667
+7.617028313976782   0.500000000000000   0.222222222222222
+7.617028313976782                   0   0.250000000000000
+7.617028313976782                   0   0.305555555555556
+7.617028313976782   0.500000000000000   0.333333333333333
+7.617028313976782   0.500000000000000   0.388888888888889
+7.617028313976782                   0   0.416666666666667
+7.617028313976782                   0   0.472222222222222
+7.617028313976782   0.500000000000000   0.500000000000000
+7.617028313976782   0.500000000000000   0.555555555555556
+7.617028313976782                   0   0.583333333333333
+7.617028313976782                   0   0.638888888888889
+7.617028313976782   0.500000000000000   0.666666666666667
+7.617028313976782   0.500000000000000   0.722222222222222
+7.617028313976782                   0   0.750000000000000
+7.617028313976782                   0   0.805555555555555
+7.617028313976782   0.500000000000000   0.833333333333333
+7.617028313976782   0.500000000000000   0.888888888888889
+7.617028313976782                   0   0.916666666666667
+7.617028313976782                   0   0.972222222222222
